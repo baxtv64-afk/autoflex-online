@@ -8,8 +8,10 @@ Une **clé de licence AutoFlex** est nécessaire (la même que sur ton ordinateu
 
 ## Déployer
 
-Depuis le logiciel : onglet **En ligne** → « Déployer mon espace en ligne ». Ou directement avec le bouton
-du modèle Railway. Railway demande :
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/dbcDdf?referralCode=LKl_D8&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+Mode d'emploi complet : https://getautoflex.com/en-ligne/ (ou, dans le logiciel, onglet **En ligne**).
+Railway demande :
 
 | Variable | À quoi ça sert |
 |---|---|
@@ -17,11 +19,13 @@ du modèle Railway. Railway demande :
 | `AUTOFLEX_LICENSE_KEY` | ta clé de licence AutoFlex |
 
 Un volume est monté sur `/data` : c'est là que vivent tes comptes, leurs connexions Instagram et tes vidéos.
-L'hébergement est facturé par Railway, à toi directement (de l'ordre de 5 à 10 $ par mois selon l'usage).
+L'hébergement est facturé par Railway, à toi directement : 5 $ de crédit d'essai, puis plan Hobby à 5 $ par mois
+(5 $ de consommation inclus) — en pratique 5 à 10 $ par mois pour un espace AutoFlex.
 
 ## Mettre à jour
 
-Dans Railway : **Deployments → Redeploy**. La dernière version d'AutoFlex est téléchargée à la construction.
+Dans Railway : ton service AutoFlex → **Deployments** → menu ⋯ du dernier déploiement → **Redeploy**.
+La dernière version d'AutoFlex est téléchargée à la construction ; tes données (sur le volume) ne bougent pas.
 
 ## Support
 
