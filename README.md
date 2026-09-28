@@ -13,7 +13,6 @@ du modèle Railway. Railway demande :
 
 | Variable | À quoi ça sert |
 |---|---|
-| `REELS_APP_USERNAME` | ton identifiant de connexion à l'espace (au choix) |
 | `REELS_APP_PASSWORD` | ton mot de passe de connexion (8 caractères minimum) |
 | `AUTOFLEX_LICENSE_KEY` | ta clé de licence AutoFlex |
 
